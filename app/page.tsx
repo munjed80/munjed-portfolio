@@ -71,10 +71,11 @@ const projects = [
   {
     title: "Al Muheet ERP",
     type: "Enterprise · ERP",
-    status: "Strategic build",
+    status: "Core implementation complete",
+    href: "/work/al-muheet",
     description:
-      "Arabic-first modular ERP designed around accounting, inventory, sales, purchasing, POS, multi-company operations, auditability, and long-term business management.",
-    stack: "Next.js · NestJS · TypeScript · PostgreSQL · Prisma",
+      "Arabic-first modular ERP with accounting, inventory, sales, procurement, cash, budgeting, fixed assets, IAM, local desktop delivery, printing, and audit-ready foundations.",
+    stack: "Next.js · Tauri · NestJS · PostgreSQL · Prisma",
   },
   {
     title: "Field Distribution System",
