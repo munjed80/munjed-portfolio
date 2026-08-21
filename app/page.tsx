@@ -38,6 +38,7 @@ const projects = [
     title: "E-commerce Platform",
     type: "Commerce · Platform Engineering",
     status: "Commerce foundation complete",
+    href: "/work/ecommerce",
     description:
       "Self-hosted European jewelry commerce platform with bilingual storefront, product discovery, cart and checkout, Stripe and Mollie payments, VAT handling, Cloudinary media, and merchant administration.",
     stack: "Next.js · Medusa.js · PostgreSQL · Redis · Stripe · Mollie",
