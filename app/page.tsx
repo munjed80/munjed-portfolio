@@ -3,6 +3,7 @@ const projects = [
     title: "Dummar Digital Transformation Platform",
     type: "Public Sector · Digital Transformation",
     status: "Operational platform",
+    href: "/work/dummar",
     description:
       "Arabic public-sector operations platform spanning citizen complaints, executive work, projects, contracts, investment assets, reporting, field workflows, and resilient low-connectivity operation.",
     stack: "FastAPI · PostgreSQL · PostGIS · Redis · React · PWA",
@@ -134,7 +135,15 @@ export default function Home() {
               <div className="text-sm text-[var(--muted)] md:col-span-1">{String(index + 1).padStart(2, "0")}</div>
               <div className="md:col-span-4">
                 <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--accent)]">{project.type}</p>
-                <h3 className="text-2xl font-semibold tracking-[-0.02em]">{project.title}</h3>
+                {project.href ? (
+                  <h3 className="text-2xl font-semibold tracking-[-0.02em]">
+                    <a href={project.href} className="underline decoration-[var(--line)] underline-offset-8 transition hover:decoration-[var(--foreground)]">
+                      {project.title}
+                    </a>
+                  </h3>
+                ) : (
+                  <h3 className="text-2xl font-semibold tracking-[-0.02em]">{project.title}</h3>
+                )}
                 <p className="mt-2 text-xs uppercase tracking-[0.1em] text-[var(--muted)]">{project.status}</p>
               </div>
               <p className="max-w-2xl leading-7 text-[var(--muted)] md:col-span-5">{project.description}</p>
