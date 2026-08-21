@@ -2,7 +2,7 @@ import { SystemMap } from "../../../components/system-map";
 
 export default function AlMuheetLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <div className="[&>main>footer]:hidden">
       {children}
       <SystemMap
         title="ERP modules coordinated through shared identity, data, printing, and local deployment"
@@ -15,6 +15,10 @@ export default function AlMuheetLayout({ children }: { children: React.ReactNode
           { label: "Verification", items: ["130 desktop tests", "134 API tests", "264 passing total", "Build stabilization"] },
         ]}
       />
-    </>
+      <footer className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-10 text-sm text-[var(--muted)] sm:flex-row sm:items-center sm:justify-between lg:px-10">
+        <a href="/" className="font-semibold text-[var(--foreground)]">← Portfolio</a>
+        <span>Al Muheet ERP · Case Study</span>
+      </footer>
+    </div>
   );
 }
