@@ -14,26 +14,51 @@ Personal portfolio presenting selected software, SaaS, digital transformation, a
 
 The portfolio uses a restrained institutional visual language: neutral backgrounds, strong typography, precise spacing, and a limited accent palette. It intentionally avoids neon gradients, glowing AI-style visuals, and generic template aesthetics.
 
-## Selected Work
-
-The final portfolio will prioritize case studies rather than a repository dump, including:
+## Featured Work
 
 - Dummar Digital Transformation Platform
-- Government / public-sector digital systems
+- Smart Accounting
 - AqarFlow CRM
-- ZZPers Hub
-- E-commerce Platform
-- Solar Agro Tree
-- MHM IT systems and infrastructure work
+- Al Muheet ERP
 
-## Planned Stack
+Additional case studies include Syria Agriculture Operations and the self-hosted E-commerce Platform.
 
-- Next.js
+## Stack
+
+- Next.js 16
+- React 19
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS 4
 - Framer Motion where motion adds value
 - SEO / Open Graph / structured data
 
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+Validation:
+
+```bash
+npm run typecheck
+npm run build
+```
+
+## Vercel
+
+The repository is structured for a standard Vercel Next.js deployment with no custom build command required.
+
+1. Import `munjed80/munjed-portfolio` into Vercel.
+2. Keep the detected framework as Next.js.
+3. Keep the build command as `npm run build`.
+4. Deploy from `main`.
+
+After the Vercel project is connected, merges to `main` can automatically publish the latest portfolio version.
+
 ## Development Workflow
 
-Work will be delivered in focused feature branches and pull requests. Project decisions and implementation status are tracked in `PROJECT_CONTINUITY.md`.
+Work is delivered in focused feature branches and pull requests. Project decisions and implementation status are tracked in `PROJECT_CONTINUITY.md`.
