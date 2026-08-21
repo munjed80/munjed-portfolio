@@ -2,7 +2,7 @@ import { SystemMap } from "../../../components/system-map";
 
 export default function SyriaAgricultureLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <div className="[&>main>footer]:hidden">
       {children}
       <SystemMap
         title="Offline-aware field data converted into management visibility"
@@ -14,6 +14,10 @@ export default function SyriaAgricultureLayout({ children }: { children: React.R
           { label: "Management", items: ["Production visibility", "Low-stock awareness", "Cost visibility", "Task progress", "PDF / Excel reports"] },
         ]}
       />
-    </>
+      <footer className="mx-auto flex max-w-7xl items-center justify-between px-6 py-10 text-sm text-[var(--muted)] lg:px-10">
+        <a href="/">Munjed Alsaied</a>
+        <a href="/#work">Selected work ↑</a>
+      </footer>
+    </div>
   );
 }
