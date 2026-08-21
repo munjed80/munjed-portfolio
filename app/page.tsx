@@ -27,10 +27,11 @@ const projects = [
   },
   {
     title: "AqarFlow CRM",
-    type: "SaaS · Real Estate",
+    type: "SaaS · Real Estate Operations",
     status: "Advanced product",
+    href: "/work/aqarflow",
     description:
-      "Arabic-first multi-tenant real-estate CRM covering pipeline, property inventory, customer matching, viewings, contracts, finance, maintenance, portals, audit events, and management decision support.",
+      "Arabic-first multi-tenant real-estate operating platform covering CRM, property inventory, customer matching, viewings, contracts, finance, maintenance, portals, audit events, and management decision support.",
     stack: "Next.js · FastAPI · PostgreSQL · Redis · MinIO",
   },
   {
