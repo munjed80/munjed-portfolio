@@ -21,11 +21,11 @@ Create a high-end professional portfolio that presents Munjed as a full-stack de
 
 ## Portfolio Structure
 1. Home / positioning.
-2. Selected Systems & Products.
-3. Public Sector & Government Systems.
-4. Individual case studies.
-5. Profile / experience.
-6. Technical capabilities.
+2. Featured Work.
+3. More Systems index.
+4. Public Sector positioning.
+5. Individual case studies.
+6. Profile / technical capabilities.
 7. Contact / GitHub / LinkedIn.
 
 ## Priority Case Studies — Tier 1
@@ -35,6 +35,15 @@ Create a high-end professional portfolio that presents Munjed as a full-stack de
 - E-commerce Platform.
 - Syria Agriculture Operations.
 - Al Muheet ERP.
+
+## Featured Home Projects
+The homepage should prioritize four projects that communicate the broadest professional depth:
+- Dummar Digital Transformation Platform — public-sector digital transformation.
+- Smart Accounting — SaaS / accounting automation.
+- AqarFlow CRM — multi-tenant real-estate operating platform.
+- Al Muheet ERP — enterprise ERP implementation.
+
+E-commerce Platform and Syria Agriculture remain Tier 1 case studies but sit in the secondary project index to keep the homepage hierarchy strong.
 
 ## Supporting Projects — Tier 2
 - Smart Rooster — functional scheduling MVP.
@@ -80,16 +89,19 @@ Each major project should eventually contain:
 Do not publish confidential data, credentials, internal network details, private citizen information, sensitive operational data, or security-relevant implementation details. Public-sector projects should show architecture and outcomes only at a professionally safe level.
 
 ## Current Implementation
-- Repository initialized.
-- Next.js / TypeScript / Tailwind foundation added.
+- Next.js / TypeScript / Tailwind portfolio foundation.
 - Institutional visual direction established.
-- Project catalog expanded and status-labelled.
-- Six Tier 1 case-study foundations are now present: Dummar, Smart Accounting, AqarFlow, E-commerce Platform, Syria Agriculture Operations, and Al Muheet ERP.
-- Al Muheet status was upgraded to Core implementation complete after verification of Phase 1–3 and stabilization work.
-- Visual-proof phase started with a reusable `SystemMap` component.
-- Dummar now has an administrative operating-flow map.
-- Smart Accounting now has a document-to-ledger flow map.
-- No repository screenshots were found in the first asset scan, so no synthetic product screenshots are used.
+- Project catalog expanded and maturity-labelled.
+- Six Tier 1 case studies are present: Dummar, Smart Accounting, AqarFlow, E-commerce Platform, Syria Agriculture Operations, and Al Muheet ERP.
+- Verified SystemMap diagrams are present across all six Tier 1 case studies.
+- No synthetic product screenshots are used; real screenshots should be added only from approved captures/assets.
+- Homepage redesigned into a portfolio index with four Featured Work cards and a lighter More Systems section.
+- Mobile spacing and project hierarchy improved.
+- Root metadata expanded with title templates, keywords, Open Graph, Twitter card metadata, robots, and Person JSON-LD structured data.
 
 ## Next Phase
-Extend verified system maps to AqarFlow, E-commerce, Syria Agriculture, and Al Muheet. Add real screenshots only when actual project captures/assets are available. Then refactor homepage project data into reusable components, improve responsive presentation, and add SEO/structured data.
+1. Validate the redesigned homepage with the production build and responsive breakpoints.
+2. Refactor project metadata out of `app/page.tsx` into reusable typed project data/components.
+3. Add per-case-study metadata and SoftwareApplication / CreativeWork structured data where accurate.
+4. Add real screenshots from approved project captures when available.
+5. Add final contact/LinkedIn surface and deployment-specific canonical URL once the production domain is fixed.
