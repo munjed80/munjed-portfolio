@@ -82,10 +82,14 @@ Do not publish confidential data, credentials, internal network details, private
 ## Current Implementation
 - Repository initialized.
 - Next.js / TypeScript / Tailwind foundation added.
-- Initial landing page added.
 - Institutional visual direction established.
-- Public-sector projects are treated as first-class portfolio work.
-- Project catalog expanded and status-labelled to avoid overstating maturity.
+- Project catalog expanded and status-labelled.
+- Six Tier 1 case-study foundations are now present: Dummar, Smart Accounting, AqarFlow, E-commerce Platform, Syria Agriculture Operations, and Al Muheet ERP.
+- Al Muheet status was upgraded to Core implementation complete after verification of Phase 1–3 and stabilization work.
+- Visual-proof phase started with a reusable `SystemMap` component.
+- Dummar now has an administrative operating-flow map.
+- Smart Accounting now has a document-to-ledger flow map.
+- No repository screenshots were found in the first asset scan, so no synthetic product screenshots are used.
 
 ## Next Phase
-Create reusable project data/components and dedicated case-study routes for Tier 1 projects. Add verified screenshots and live/repository links where appropriate, then add SEO/structured data and responsive polish.
+Extend verified system maps to AqarFlow, E-commerce, Syria Agriculture, and Al Muheet. Add real screenshots only when actual project captures/assets are available. Then refactor homepage project data into reusable components, improve responsive presentation, and add SEO/structured data.
