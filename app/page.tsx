@@ -12,6 +12,7 @@ const projects = [
     title: "Syria Agriculture Operations",
     type: "Public Sector · Government Operations",
     status: "Government MVP",
+    href: "/work/syria-agriculture",
     description:
       "Offline-aware agricultural operations platform for production, stock and inputs, expenses, tasks, field issues, and printable management reporting.",
     stack: "React · TypeScript · FastAPI · PostgreSQL · PWA",
