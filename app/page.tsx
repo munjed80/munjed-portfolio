@@ -20,6 +20,7 @@ const projects = [
     title: "Smart Accounting",
     type: "SaaS · Accounting Automation",
     status: "Advanced product",
+    href: "/work/smart-accounting",
     description:
       "Accounting platform with invoice and receipt processing, OCR-assisted document extraction, draft bookkeeping transactions, bank reconciliation, accountant workflows, and Dutch ZZP administration features.",
     stack: "React · FastAPI · PostgreSQL · Redis · OCR · Docker",
