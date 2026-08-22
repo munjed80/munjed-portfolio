@@ -59,8 +59,17 @@ export const featuredProjects: FeaturedProject[] = [
 ];
 
 export const supportingProjects: SupportingProject[] = [
+  ["Syria Build", "Implemented internal system", "/work/syria-build", "Reconstruction tracking · React · Express · SQLite · 63 tests"],
+  ["Digital Syria Core", "Government MVP foundation", "/work/digital-syria-core", "Citizen services · Next.js · FastAPI · SQLAlchemy"],
+  ["Smart Inbox Platform", "Full-stack support platform", "/work/smart-inbox", "Next.js · Express · PostgreSQL · Prisma · Docker"],
+  ["Digital Syria Vision", "Strategy & working prototype", "/work/digital-syria-vision", "GovTech strategy · Architecture · OpenAPI · Prototype"],
   ["Syria Agriculture Operations", "Government MVP", "/work/syria-agriculture", "Public-sector operations · Offline-aware PWA"],
   ["E-commerce Platform", "Commerce foundation complete", "/work/ecommerce", "Next.js · Medusa · Stripe · Mollie"],
+  ["Digital Syria Foundation", "Infrastructure foundation · in development", undefined, "Syria-ID · OIDC · API gateway · national infrastructure"],
+  ["Sham New District Command Center", "Operational project-management build", undefined, "Next.js · TypeScript · Prisma · SQLite"],
+  ["Syrian B2B Wholesale", "Functional marketplace prototype", undefined, "Arabic RTL · React · TypeScript · RFQ workflows"],
+  ["ZZP-HUB", "Advanced Dutch SaaS", undefined, "Next.js · Prisma · PWA · Accountant portal · AI assist"],
+  ["Department Archive System", "Frontend institutional prototype", undefined, "Arabic RTL · React · TypeScript · archive workflow"],
   ["Smart Rooster", "Functional MVP", undefined, "Workforce scheduling · React · TypeScript"],
   ["SmartOrder Hub", "Prototype", undefined, "Restaurant operations · Node.js · Express"],
   ["Bayti Syria", "Foundation / in development", undefined, "Travel & hospitality · Next.js · PostgreSQL"],
